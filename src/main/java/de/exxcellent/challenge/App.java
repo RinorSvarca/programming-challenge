@@ -15,9 +15,10 @@ public final class App {
     public static void main(String... args) {
 
         // Your preparation code …
-
+    	System.out.print("Weather is successfully calculated -> ");
         new WeatherCalculation();
-        String teamWithSmallestGoalSpread = "A good team"; // Your goal analysis function call …
-        System.out.printf("Team with smallest goal spread       : %s%n", teamWithSmallestGoalSpread);
+        
+        System.out.print("Teams absolute goal difference is calculated ");
+        new TeamGoalsScored();
     }
 }
